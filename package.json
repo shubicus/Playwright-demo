@@ -1,0 +1,21 @@
+{
+  "name": "playwright-demo",
+  "version": "1.0.0",
+  "description": "> Before you follow the steps below, make sure you have the [Node.js](https://nodejs.org/en/download/) installed _globally_ only your system",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubicus/Playwright-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubicus/Playwright-demo/issues"
+  },
+  "homepage": "https://github.com/shubicus/Playwright-demo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.31.2"
+  }
+}
