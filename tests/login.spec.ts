@@ -30,5 +30,4 @@ test.describe('Login and Logout test', () => {
         await inventoryPage.openUrl();
         await expect(inventoryPage.getActualPageUrl()).toBe(inventoryPage.getPageUrl());
     });
-
 });

@@ -3,19 +3,34 @@
   "version": "1.0.0",
   "description": "> Before you follow the steps below, make sure you have the [Node.js](https://nodejs.org/en/download/) installed _globally_ only your system",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report",
+    "tsc": "npx tsc --project tsconfig.json --noEmit",
+    "lint": "npx eslint \"src/**\"",
+    "check": "npm run tsc && npm run lint"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shubicus/Playwright-demo.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "playwright",
+    "typescript",
+    "testautomation",
+    "pageobject"
+  ],
+  "author": "Vadym Shubkin",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/shubicus/Playwright-demo/issues"
   },
   "homepage": "https://github.com/shubicus/Playwright-demo#readme",
   "devDependencies": {
-    "@playwright/test": "^1.31.2"
+    "@playwright/test": "1.31.2",
+    "@typescript-eslint/eslint-plugin": "5.55.0",
+    "@typescript-eslint/parser": "5.55.0",
+    "eslint-plugin-playwright": "0.12.0",
+    "typescript": "5.0.2"
   }
 }
